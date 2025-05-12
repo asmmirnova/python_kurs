@@ -1,0 +1,32 @@
+#selection-container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+#selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+}
+#selection h1 {
+    margin-bottom: 10px;
+}
+#selection select {
+    width: 160px;
+    background-color: #CEF8;
+    border: #006 solid 1px;
+}
+#selection option {
+    padding: 6px;
+}
+#exit {
+     position: absolute;
+     left: 40px;
+     top: 20px;
+     width: 100px;
+     filter: brightness(140%);
+ }

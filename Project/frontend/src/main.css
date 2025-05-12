@@ -1,0 +1,25 @@
+#main-container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+#main {
+    display: grid;
+    justify-items: center;
+    padding: 20px;
+    background: radial-gradient(#FFF8, #CCF8);
+    backdrop-filter: blur(4px);
+    border: black solid 1px;
+    border-radius: 8px;
+}
+#main h1 {
+    padding: 20px;
+}
+#buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}

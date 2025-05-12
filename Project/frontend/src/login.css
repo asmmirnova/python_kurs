@@ -1,0 +1,41 @@
+#login-container, #signup-container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    justify-items: center;
+    align-content: center;
+}
+#login, #signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: radial-gradient(#FFF8, #CCF8);
+    backdrop-filter: blur(4px);
+    border: black solid 1px;
+    border-radius: 8px;
+}
+#login-field, #signup-field {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.label {
+    font-style: italic;
+    transform: translate(0, 5px);
+}
+#username, #password {
+    width: 180px;
+    height: 20px;
+    padding: 2px;
+    background-color: #AFF4;
+    margin: 5px;
+    border: black solid 1px;
+}
+#enter {
+    width: fit-content;
+    margin: 10px auto auto;
+}
+#isAdmin {
+    margin: 10px 10px 0 10px;
+}

@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-image: url('/public/bliss.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+div, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    width: fit-content;
+}
+button {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 120px;
+}
+input{
+    font-family: Balsamiq_Sans_Regular, serif;
+}
+button {
+    background:#CEF8;
+    color: black;
+    border-left: solid #006 1px;
+    border-top: solid #006 1px;
+    border-right: solid #006 1px;
+    border-bottom: solid #006 1px;
+    backdrop-filter: blur(4px);
+}
+button:hover {
+    background:#CEFF;
+}
+button:active {
+    background:#ADFF;
+}
+#delete-user-button {
+    background: #FBA8;
+}
+#delete-user-button:hover {
+    background: #FBAF;
+}
+#delete-user-button:active {
+    background: #FA8F;
+}
+option:checked {
+    background-color: #2AFF;
+    color: black;
+}
